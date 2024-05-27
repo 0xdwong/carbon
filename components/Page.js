@@ -27,7 +27,7 @@ class Page extends React.Component {
           <div className="page">{children}</div>
         </AuthContext>
 
-        <Footer />
+        {/* <Footer /> */}
 
         <style jsx>
           {`

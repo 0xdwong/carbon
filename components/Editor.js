@@ -376,11 +376,11 @@ class Editor extends React.Component {
                 applyPreset={this.applyPreset}
                 getCarbonImage={this.getCarbonImage}
               />
-              <CopyMenu copyImage={this.copyImage} carbonRef={this.carbonNode.current} />
+              {/* <CopyMenu copyImage={this.copyImage} carbonRef={this.carbonNode.current} /> */}
             </div>
             <div id="style-editor-button" />
             <div className="share-buttons">
-              <ShareMenu tweet={this.tweet} imgur={this.imgur} />
+              {/* <ShareMenu tweet={this.tweet} imgur={this.imgur} /> */}
               <ExportMenu
                 onChange={this.updateSetting}
                 exportImage={this.exportImage}
