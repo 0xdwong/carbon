@@ -4,9 +4,9 @@ import Logo from './svg/Logo'
 const Header = ({ enableHeroText }) => (
   <header role="banner" className="mb4">
     <div className="header-content">
-      <a id="link-home" href="/" aria-label="Home">
+      {/* <a id="link-home" href="/" aria-label="Home">
         <Logo />
-      </a>
+      </a> */}
       {enableHeroText ? (
         <h2 className="mt3">
           Create and share beautiful images of your source code.
